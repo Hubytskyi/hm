@@ -1,0 +1,5 @@
+title: Mykola Hubytskyi | Front-end Developer
+name: Mykola Hubytskyi | Front-end Developer
+url: "hubytskyi.github.io"
+markdown: kramdown
+exclude: ["node_modules", "gulpfile.js", "package.json"]

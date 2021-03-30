@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Calingham';
+    src: url('../fonts/Calingham.eot');
+    src: url('../fonts/Calingham.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calingham.woff2') format('woff2'),
+        url('../fonts/Calingham.woff') format('woff'),
+        url('../fonts/Calingham.ttf') format('truetype'),
+        url('../fonts/Calingham.svg#Calingham') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

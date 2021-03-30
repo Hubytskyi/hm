@@ -1,0 +1,16 @@
+mixin nav-content()
+	ul
+		li: a(href="/") Home
+
+.mobile-nav
+	+nav-content()
+header
+	.logo: a(href="#about"): img(src="/assets/img/logo.png", alt="Hubytskyi" style="height:60px")
+
+	nav.site-nav
+		+nav-content()
+
+
+	a(href="https://www.behance.net/hubytskyi" target="_blank").behance-link <i class="fa fa-behance fa-2x" aria-hidden="true"></i>
+
+	.mobile-nav-toggle: span

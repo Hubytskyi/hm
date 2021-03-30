@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Onthel';
+    src: url('fonts/Onthel.eot');
+    src: url('fonts/Onthel.eot') format('embedded-opentype'),
+         url('fonts/Onthel.woff2') format('woff2'),
+         url('fonts/Onthel.woff') format('woff'),
+         url('fonts/Onthel.ttf') format('truetype'),
+         url('fonts/Onthel.svg#Onthel') format('svg');
+}

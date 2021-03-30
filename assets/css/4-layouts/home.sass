@@ -1,0 +1,64 @@
+.home-wrap
+	display: flex
+	min-height: 100vh
+
+	@media (max-width: 775px)
+		display: block
+
+.home-sections
+	flex: 1
+
+	section
+		padding: 50px 0
+
+
+	// Flex Classes
+	.flex
+		display: flex
+		flex-direction: rows
+		justify-content: center
+
+	.flex--center
+		justify-content: center
+
+	.flex--space-around
+		justify-content: space-around
+
+
+
+
+// columns
+.col-1
+	max-width: 300px
+	margin: 0 10px
+
+.col-2
+	max-width: 620px
+	margin: 0 10px
+
+.col-50
+	width: 50%
+
+@media (max-width: 640px)
+	.home-sections .flex
+		display: block
+
+	.col-1
+		max-width: 100%
+
+	.col-50
+		width: auto
+
+.home-lead
+	font-size: 24px
+	line-height: 1
+
+.home-lead-second
+	font-size: 18px
+	line-height: 4
+
+.home-cta
+	margin-top: 20px
+
+.outdented
+	line-height: 1.25

@@ -1,0 +1,41 @@
+section#portfolio
+	background-image: url(../img/portfolio-bg6-min.jpg)
+	background-size: cover
+	background-position: center bottom
+
+
+.col-1 img
+	max-width: 500px
+	transition: all 0.2s ease-in-out
+	margin-left: env(safe-area-inset-left)
+	&:hover
+		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4)
+
+
+.description
+	display: flex
+	align-items: center
+	h3
+		letter-spacing: 1px
+
+@media (max-width: 1200px)
+	.col-1 img
+		max-width: 400px
+
+@media (max-width: 1000px)
+	.col-1 img
+		max-width: 300px
+
+@media (max-width: 640px)
+	.col-1
+		text-align: center
+		img
+			max-width: 400px
+
+@media (max-width: 450px)
+	.col-1 img
+		max-width: 300px
+
+	.description
+		padding-top: 50px
+		justify-content: center
