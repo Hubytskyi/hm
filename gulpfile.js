@@ -5,7 +5,7 @@ const prefix      = require('gulp-autoprefixer');
 const cp          = require('child_process');
 const jade        = require('gulp-jade');
 
-const jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
+// const jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 const messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
