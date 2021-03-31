@@ -25,13 +25,15 @@
   <meta name="theme-color" content="#484c58">
   <meta name="msapplication-navbutton-color" content="#484c58">
   <meta name="apple-mobile-web-app-status-bar-style" content="#484c58">
-  <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
 </head>
 <body>
 
   {{ content }}
 
   {% if page.url == "/index.html" %}
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
   <script type="text/javascript" src="/assets/js/functions.js"></script>
   {% endif %}
 
